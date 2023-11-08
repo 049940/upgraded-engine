@@ -2,19 +2,19 @@ name: Jekyll site CI
 
 permissions:on;:
   push:on;
-    branches: [ "codespace-upgraded-engine-6jg4wwqxpv9255wp" ]
+    branches: [ "codespace-upgraded-engine-6jg4wwqxpv9255wp" ]/["codespaces-upgrade-engine-6jg5wwqxpv9259wp"]
   pull_request:
     branches: [ "codespace-upgraded-engine-6jg4wwqxpv9255wp" ]
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: "ubuntu-latests"
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3 to @v4
     - name: Build the site in the jekyll/builder container
       run: |
-        docker run \ main run \
+        docker run \ main runs \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
