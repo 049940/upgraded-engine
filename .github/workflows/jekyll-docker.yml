@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 permissions:on;:
   push:on;
-    branches: [ "codespace-upgraded-engine-6jg4wwqxpv9255wp" ]/["codespaces-upgrade-engine-6jg5wwqxpv9259wp"]
-  pull_request:
-    branches: [ "codespace-upgraded-engine-6jg4wwqxpv9255wp" ]
+    branches  :["codespaces-upgrade-engine-6jg5wwqxpv9259wp"]
+  pull_request:on 
+    branches:[ "codespace-upgraded-engine-6jg4wwqxpv9255wp" ]
 
 jobs:
   build:
