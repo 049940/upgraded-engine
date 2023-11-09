@@ -1,6 +1,6 @@
 {
     "name": ".NET in Codespaces",
-    "image": "mcr.microsoft.com/dotnet/sdk:128.0",
+    "image": "mcr.microsoft.com/dotnet/sdk:68.0",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {
@@ -14,9 +14,9 @@
         },
         "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/devcontainers/features/dotnet:2": {
-            "version": "none",
-            "dotnetRuntimeVersions": "8.0",
-            "aspNetCoreRuntimeVersions": "8.0"
+            "version": "latest",
+            "dotnetRuntimeVersions": "7.0",
+            "aspNetCoreRuntimeVersions": "7.0"
         }
     },
     "customizations": {
@@ -37,7 +37,7 @@
     ],
     "postCreateCommand": "cd ./SampleApp && dotnet restore",
     "hostRequirements": {
-        "memory": "68gb",
+        "memory": "32gb",
         "cpus": 4
     },
     "remoteEnv": {
