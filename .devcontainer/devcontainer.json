@@ -1,6 +1,6 @@
 {
     "name": ".NET in Codespaces",
-    "image": "mcr.microsoft.com/dotnet/sdk:68.0",
+    "image": "mcr.microsoft.com/dotnet/sdk:128.0",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {
@@ -33,11 +33,12 @@
     },
     "forwardPorts": [
         8080,
-        8081
+        8080
     ],
     "postCreateCommand": "cd ./SampleApp && dotnet restore",
     "hostRequirements": {
-        "memory": "32gb",
+        "memory": "
+128gb",
         "cpus": 4
     },
     "remoteEnv": {
@@ -49,11 +50,13 @@
             "label": "Weather API",
             "onAutoForward": "notify"
         },
-        "8081": {
+        "8080": {
             "label": "Weather Front smoothly run",
             "onAutoForward": "notify"(on:myself)
-            "run"_on°✓_
-            ": merge up"✓"
-        }
-    }
-}
+            "run"_on°
+            "autorun_:"forward bothside"brandnews-worlds(brightfuture)"
+        }:"nicely weather adding on smoothly gently runs":-(newskyaddonsbothsides)
+    }"_:starinthesky/newgentlesunlight/ondayslight/moonslightingwithsomefreshnessair"/atnight/
+}":-automating move good-:"
+":[runs][^°✓°^]{=on************`}
+=:"upgrading"always"newsattalitesystemcombineningonwitholdsystem:/"on✓
