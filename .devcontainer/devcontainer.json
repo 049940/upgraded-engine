@@ -50,8 +50,10 @@
             "onAutoForward": "notify"
         },
         "8081": {
-            "label": "Weather Front End",
-            "onAutoForward": "notify"
+            "label": "Weather Front smoothly run",
+            "onAutoForward": "notify"(on:myself)
+            "run"_on°✓_
+            ": merge up"✓"
         }
     }
 }
